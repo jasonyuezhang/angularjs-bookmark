@@ -1,0 +1,54 @@
+body {
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+
+body div {
+	height: inherit;
+}
+
+.sidebar {
+	background: #2a262b;
+	height: inherit;
+	position: absolute;
+}
+
+.sidebar .logo {
+	margin: 15px 0;
+	width: 100%;
+}
+
+.nav .active {
+    text-decoration: none;
+    background-color: #eee;
+}
+
+.main {
+	background: #d6dada;
+	height: inherit;
+	padding-top: 75px;
+}
+
+.bookmark {
+	height: auto;
+}
+
+.bookmark.active {
+	text-decoration: none;
+	background: #eee;
+}
+
+.bookmark button,
+.bookmark a {
+	display: inline-block;
+}
+
+.bookmark .times {
+	background: transparent;
+    border: 0;
+	float: right;
+	font-size: 1.5em;
+	line-height: 34px;
+	padding: 0 5px 0 0;
+}
